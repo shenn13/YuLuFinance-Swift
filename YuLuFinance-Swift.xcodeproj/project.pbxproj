@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		617918AC20996499003DFCD3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918A120996499003DFCD3 /* UIColor+Hex.m */; };
+		617918AD20996499003DFCD3 /* UIView+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918A320996499003DFCD3 /* UIView+MJ.m */; };
+		617918AE20996499003DFCD3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918A720996499003DFCD3 /* UIView+Extension.m */; };
+		617918AF20996499003DFCD3 /* NSArray+JSONLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918A820996499003DFCD3 /* NSArray+JSONLog.m */; };
+		617918B020996499003DFCD3 /* UIButton+EdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918A920996499003DFCD3 /* UIButton+EdgeInsets.m */; };
+		617918B120996499003DFCD3 /* UIFont+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918AB20996499003DFCD3 /* UIFont+runtime.m */; };
+		617918C320996646003DFCD3 /* YLDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918C220996646003DFCD3 /* YLDiscoverViewController.swift */; };
+		617918C520996659003DFCD3 /* YLFriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918C420996659003DFCD3 /* YLFriendsListViewController.swift */; };
+		617918C720996667003DFCD3 /* YLHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918C620996667003DFCD3 /* YLHomePageViewController.swift */; };
+		617918C920996672003DFCD3 /* YLMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918C820996672003DFCD3 /* YLMyViewController.swift */; };
+		617918CE20996C8D003DFCD3 /* YLAFNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918CD20996C8D003DFCD3 /* YLAFNetworkManager.swift */; };
+		617918D820998173003DFCD3 /* YLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918D720998173003DFCD3 /* YLLoginViewController.swift */; };
+		617918DA20998187003DFCD3 /* YLExclusiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918D920998187003DFCD3 /* YLExclusiveViewController.swift */; };
+		617918DE209987DE003DFCD3 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918DD209987DE003DFCD3 /* Api.swift */; };
+		617918E020998803003DFCD3 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918DF20998803003DFCD3 /* System.swift */; };
+		617918E320999B65003DFCD3 /* UnderLineButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918E220999B65003DFCD3 /* UnderLineButtonView.m */; };
+		617918EB20999EBC003DFCD3 /* HistoryContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617918E520999EBC003DFCD3 /* HistoryContentCell.xib */; };
+		617918EC20999EBC003DFCD3 /* YJJTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617918E620999EBC003DFCD3 /* YJJTextField.xib */; };
+		617918ED20999EBC003DFCD3 /* HistoryContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918E920999EBC003DFCD3 /* HistoryContentCell.m */; };
+		617918EE20999EBC003DFCD3 /* YJJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 617918EA20999EBC003DFCD3 /* YJJTextField.m */; };
+		617918F02099B2D0003DFCD3 /* YLRegisterAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617918EF2099B2D0003DFCD3 /* YLRegisterAgreementViewController.swift */; };
+		61F821C3209961140035D54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F821C2209961140035D54B /* AppDelegate.swift */; };
+		61F821C5209961140035D54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F821C4209961140035D54B /* ViewController.swift */; };
+		61F821C8209961140035D54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F821C6209961140035D54B /* Main.storyboard */; };
+		61F821CA209961140035D54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F821C9209961140035D54B /* Assets.xcassets */; };
+		61F821CD209961140035D54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F821CB209961140035D54B /* LaunchScreen.storyboard */; };
+		61F821F2209961A30035D54B /* YLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F821F1209961A30035D54B /* YLBaseViewController.swift */; };
+		61F821F4209961B90035D54B /* YLNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F821F3209961B90035D54B /* YLNavigationViewController.swift */; };
+		61F821F6209961D00035D54B /* YLTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F821F5209961D00035D54B /* YLTabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6179189F20996498003DFCD3 /* YuLuFinance-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YuLuFinance-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		617918A020996498003DFCD3 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		617918A120996499003DFCD3 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		617918A220996499003DFCD3 /* UIView+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJ.h"; sourceTree = "<group>"; };
+		617918A320996499003DFCD3 /* UIView+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJ.m"; sourceTree = "<group>"; };
+		617918A420996499003DFCD3 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		617918A520996499003DFCD3 /* UIButton+EdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EdgeInsets.h"; sourceTree = "<group>"; };
+		617918A620996499003DFCD3 /* NSArray+JSONLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONLog.h"; sourceTree = "<group>"; };
+		617918A720996499003DFCD3 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		617918A820996499003DFCD3 /* NSArray+JSONLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONLog.m"; sourceTree = "<group>"; };
+		617918A920996499003DFCD3 /* UIButton+EdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EdgeInsets.m"; sourceTree = "<group>"; };
+		617918AA20996499003DFCD3 /* UIFont+runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+runtime.h"; sourceTree = "<group>"; };
+		617918AB20996499003DFCD3 /* UIFont+runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+runtime.m"; sourceTree = "<group>"; };
+		617918C220996646003DFCD3 /* YLDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLDiscoverViewController.swift; sourceTree = "<group>"; };
+		617918C420996659003DFCD3 /* YLFriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLFriendsListViewController.swift; sourceTree = "<group>"; };
+		617918C620996667003DFCD3 /* YLHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLHomePageViewController.swift; sourceTree = "<group>"; };
+		617918C820996672003DFCD3 /* YLMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLMyViewController.swift; sourceTree = "<group>"; };
+		617918CD20996C8D003DFCD3 /* YLAFNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLAFNetworkManager.swift; sourceTree = "<group>"; };
+		617918D720998173003DFCD3 /* YLLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLLoginViewController.swift; sourceTree = "<group>"; };
+		617918D920998187003DFCD3 /* YLExclusiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLExclusiveViewController.swift; sourceTree = "<group>"; };
+		617918DD209987DE003DFCD3 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		617918DF20998803003DFCD3 /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		617918E120999B64003DFCD3 /* UnderLineButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderLineButtonView.h; sourceTree = "<group>"; };
+		617918E220999B65003DFCD3 /* UnderLineButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderLineButtonView.m; sourceTree = "<group>"; };
+		617918E520999EBC003DFCD3 /* HistoryContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryContentCell.xib; sourceTree = "<group>"; };
+		617918E620999EBC003DFCD3 /* YJJTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJJTextField.xib; sourceTree = "<group>"; };
+		617918E720999EBC003DFCD3 /* YJJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJJTextField.h; sourceTree = "<group>"; };
+		617918E820999EBC003DFCD3 /* HistoryContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryContentCell.h; sourceTree = "<group>"; };
+		617918E920999EBC003DFCD3 /* HistoryContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryContentCell.m; sourceTree = "<group>"; };
+		617918EA20999EBC003DFCD3 /* YJJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJJTextField.m; sourceTree = "<group>"; };
+		617918EF2099B2D0003DFCD3 /* YLRegisterAgreementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLRegisterAgreementViewController.swift; sourceTree = "<group>"; };
+		61F821BF209961140035D54B /* YuLuFinance-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YuLuFinance-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F821C2209961140035D54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61F821C4209961140035D54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61F821C7209961140035D54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61F821C9209961140035D54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61F821CC209961140035D54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61F821CE209961140035D54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F821F1209961A30035D54B /* YLBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLBaseViewController.swift; sourceTree = "<group>"; };
+		61F821F3209961B90035D54B /* YLNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLNavigationViewController.swift; sourceTree = "<group>"; };
+		61F821F5209961D00035D54B /* YLTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLTabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F821BC209961140035D54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6179189920996467003DFCD3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6179189A20996467003DFCD3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				617918E120999B64003DFCD3 /* UnderLineButtonView.h */,
+				617918E220999B65003DFCD3 /* UnderLineButtonView.m */,
+				617918CD20996C8D003DFCD3 /* YLAFNetworkManager.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6179189B20996467003DFCD3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				617918E420999EBC003DFCD3 /* TextField */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6179189C20996472003DFCD3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				617918D320998152003DFCD3 /* Exclusive */,
+				617918CF20998113003DFCD3 /* Login */,
+				617918B2209965EE003DFCD3 /* Discover */,
+				617918BA209965EE003DFCD3 /* Friends */,
+				617918BE209965EE003DFCD3 /* Home */,
+				617918B6209965EE003DFCD3 /* My */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6179189D20996472003DFCD3 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				6179189F20996498003DFCD3 /* YuLuFinance-Swift-Bridging-Header.h */,
+				617918DD209987DE003DFCD3 /* Api.swift */,
+				617918DF20998803003DFCD3 /* System.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		6179189E20996472003DFCD3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				617918A620996499003DFCD3 /* NSArray+JSONLog.h */,
+				617918A820996499003DFCD3 /* NSArray+JSONLog.m */,
+				617918A520996499003DFCD3 /* UIButton+EdgeInsets.h */,
+				617918A920996499003DFCD3 /* UIButton+EdgeInsets.m */,
+				617918A420996499003DFCD3 /* UIColor+Hex.h */,
+				617918A120996499003DFCD3 /* UIColor+Hex.m */,
+				617918AA20996499003DFCD3 /* UIFont+runtime.h */,
+				617918AB20996499003DFCD3 /* UIFont+runtime.m */,
+				617918A020996498003DFCD3 /* UIView+Extension.h */,
+				617918A720996499003DFCD3 /* UIView+Extension.m */,
+				617918A220996499003DFCD3 /* UIView+MJ.h */,
+				617918A320996499003DFCD3 /* UIView+MJ.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		617918B2209965EE003DFCD3 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				617918B3209965EE003DFCD3 /* M */,
+				617918B4209965EE003DFCD3 /* C */,
+				617918B5209965EE003DFCD3 /* V */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		617918B3209965EE003DFCD3 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		617918B4209965EE003DFCD3 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				617918C220996646003DFCD3 /* YLDiscoverViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		617918B5209965EE003DFCD3 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		617918B6209965EE003DFCD3 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				617918B7209965EE003DFCD3 /* M */,
+				617918B8209965EE003DFCD3 /* C */,
+				617918B9209965EE003DFCD3 /* V */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		617918B7209965EE003DFCD3 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		617918B8209965EE003DFCD3 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				617918C820996672003DFCD3 /* YLMyViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		617918B9209965EE003DFCD3 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		617918BA209965EE003DFCD3 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				617918BB209965EE003DFCD3 /* M */,
+				617918BC209965EE003DFCD3 /* C */,
+				617918BD209965EE003DFCD3 /* V */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		617918BB209965EE003DFCD3 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		617918BC209965EE003DFCD3 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				617918C420996659003DFCD3 /* YLFriendsListViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		617918BD209965EE003DFCD3 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		617918BE209965EE003DFCD3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				617918BF209965EE003DFCD3 /* M */,
+				617918C0209965EE003DFCD3 /* C */,
+				617918C1209965EE003DFCD3 /* V */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		617918BF209965EE003DFCD3 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		617918C0209965EE003DFCD3 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				617918C620996667003DFCD3 /* YLHomePageViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		617918C1209965EE003DFCD3 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		617918CF20998113003DFCD3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				617918D020998113003DFCD3 /* M */,
+				617918D120998113003DFCD3 /* C */,
+				617918D220998113003DFCD3 /* V */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		617918D020998113003DFCD3 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		617918D120998113003DFCD3 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				617918D720998173003DFCD3 /* YLLoginViewController.swift */,
+				617918EF2099B2D0003DFCD3 /* YLRegisterAgreementViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		617918D220998113003DFCD3 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		617918D320998152003DFCD3 /* Exclusive */ = {
+			isa = PBXGroup;
+			children = (
+				617918D420998152003DFCD3 /* M */,
+				617918D520998152003DFCD3 /* C */,
+				617918D620998152003DFCD3 /* V */,
+			);
+			path = Exclusive;
+			sourceTree = "<group>";
+		};
+		617918D420998152003DFCD3 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		617918D520998152003DFCD3 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				617918D920998187003DFCD3 /* YLExclusiveViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		617918D620998152003DFCD3 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		617918E420999EBC003DFCD3 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				617918E520999EBC003DFCD3 /* HistoryContentCell.xib */,
+				617918E620999EBC003DFCD3 /* YJJTextField.xib */,
+				617918E720999EBC003DFCD3 /* YJJTextField.h */,
+				617918E820999EBC003DFCD3 /* HistoryContentCell.h */,
+				617918E920999EBC003DFCD3 /* HistoryContentCell.m */,
+				617918EA20999EBC003DFCD3 /* YJJTextField.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		61F821B6209961140035D54B = {
+			isa = PBXGroup;
+			children = (
+				61F821C1209961140035D54B /* YuLuFinance-Swift */,
+				61F821C0209961140035D54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F821C0209961140035D54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F821BF209961140035D54B /* YuLuFinance-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F821C1209961140035D54B /* YuLuFinance-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6179189E20996472003DFCD3 /* Category */,
+				6179189C20996472003DFCD3 /* Class */,
+				6179189D20996472003DFCD3 /* Header */,
+				6179189B20996467003DFCD3 /* Lib */,
+				6179189920996467003DFCD3 /* Resource */,
+				6179189A20996467003DFCD3 /* Tool */,
+				61F821F02099617F0035D54B /* BaseController */,
+				61F821C2209961140035D54B /* AppDelegate.swift */,
+				61F821C4209961140035D54B /* ViewController.swift */,
+				61F821C6209961140035D54B /* Main.storyboard */,
+				61F821C9209961140035D54B /* Assets.xcassets */,
+				61F821CB209961140035D54B /* LaunchScreen.storyboard */,
+				61F821CE209961140035D54B /* Info.plist */,
+			);
+			path = "YuLuFinance-Swift";
+			sourceTree = "<group>";
+		};
+		61F821F02099617F0035D54B /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				61F821F1209961A30035D54B /* YLBaseViewController.swift */,
+				61F821F3209961B90035D54B /* YLNavigationViewController.swift */,
+				61F821F5209961D00035D54B /* YLTabBarViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F821BE209961140035D54B /* YuLuFinance-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F821E7209961150035D54B /* Build configuration list for PBXNativeTarget "YuLuFinance-Swift" */;
+			buildPhases = (
+				61F821BB209961140035D54B /* Sources */,
+				61F821BC209961140035D54B /* Frameworks */,
+				61F821BD209961140035D54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YuLuFinance-Swift";
+			productName = "YuLuFinance-Swift";
+			productReference = 61F821BF209961140035D54B /* YuLuFinance-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F821B7209961140035D54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YL;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "增光";
+				TargetAttributes = {
+					61F821BE209961140035D54B = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 61F821BA209961140035D54B /* Build configuration list for PBXProject "YuLuFinance-Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F821B6209961140035D54B;
+			productRefGroup = 61F821C0209961140035D54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F821BE209961140035D54B /* YuLuFinance-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F821BD209961140035D54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617918EB20999EBC003DFCD3 /* HistoryContentCell.xib in Resources */,
+				617918EC20999EBC003DFCD3 /* YJJTextField.xib in Resources */,
+				61F821CD209961140035D54B /* LaunchScreen.storyboard in Resources */,
+				61F821CA209961140035D54B /* Assets.xcassets in Resources */,
+				61F821C8209961140035D54B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F821BB209961140035D54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617918E020998803003DFCD3 /* System.swift in Sources */,
+				617918C520996659003DFCD3 /* YLFriendsListViewController.swift in Sources */,
+				617918B120996499003DFCD3 /* UIFont+runtime.m in Sources */,
+				617918C920996672003DFCD3 /* YLMyViewController.swift in Sources */,
+				617918DE209987DE003DFCD3 /* Api.swift in Sources */,
+				617918B020996499003DFCD3 /* UIButton+EdgeInsets.m in Sources */,
+				617918CE20996C8D003DFCD3 /* YLAFNetworkManager.swift in Sources */,
+				617918C720996667003DFCD3 /* YLHomePageViewController.swift in Sources */,
+				61F821F2209961A30035D54B /* YLBaseViewController.swift in Sources */,
+				617918AC20996499003DFCD3 /* UIColor+Hex.m in Sources */,
+				61F821C5209961140035D54B /* ViewController.swift in Sources */,
+				61F821F4209961B90035D54B /* YLNavigationViewController.swift in Sources */,
+				617918AD20996499003DFCD3 /* UIView+MJ.m in Sources */,
+				617918D820998173003DFCD3 /* YLLoginViewController.swift in Sources */,
+				61F821F6209961D00035D54B /* YLTabBarViewController.swift in Sources */,
+				617918C320996646003DFCD3 /* YLDiscoverViewController.swift in Sources */,
+				617918EE20999EBC003DFCD3 /* YJJTextField.m in Sources */,
+				617918ED20999EBC003DFCD3 /* HistoryContentCell.m in Sources */,
+				617918E320999B65003DFCD3 /* UnderLineButtonView.m in Sources */,
+				617918F02099B2D0003DFCD3 /* YLRegisterAgreementViewController.swift in Sources */,
+				617918DA20998187003DFCD3 /* YLExclusiveViewController.swift in Sources */,
+				617918AE20996499003DFCD3 /* UIView+Extension.m in Sources */,
+				617918AF20996499003DFCD3 /* NSArray+JSONLog.m in Sources */,
+				61F821C3209961140035D54B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61F821C6209961140035D54B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F821C7209961140035D54B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61F821CB209961140035D54B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F821CC209961140035D54B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61F821E5209961150035D54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61F821E6209961150035D54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F821E8209961150035D54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4F6S2NSTD;
+				INFOPLIST_FILE = "YuLuFinance-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yulujinrong.YuLuFinance-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YuLuFinance-Swift/Header/YuLuFinance-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61F821E9209961150035D54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4F6S2NSTD;
+				INFOPLIST_FILE = "YuLuFinance-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yulujinrong.YuLuFinance-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YuLuFinance-Swift/Header/YuLuFinance-Swift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F821BA209961140035D54B /* Build configuration list for PBXProject "YuLuFinance-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F821E5209961150035D54B /* Debug */,
+				61F821E6209961150035D54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F821E7209961150035D54B /* Build configuration list for PBXNativeTarget "YuLuFinance-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F821E8209961150035D54B /* Debug */,
+				61F821E9209961150035D54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61F821B7209961140035D54B /* Project object */;
+}
